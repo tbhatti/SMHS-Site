@@ -1,0 +1,34 @@
+.container-help-community-main {
+    display: inline-block;
+    float: left;
+    padding-left: 300px;
+    top: 100px;
+    position: absolute;
+    .container-help-community {
+        width: 180px;
+        height: 25px;
+        display: inline-block;
+        border: 1px solid #FFF;
+        .show-hide-help-community-menu {
+            height: 215px;
+            width: 400px;
+            position: relative;
+        //transition: opacity 1s ease-out;
+            display: none;
+            background: #FFF;
+            box-shadow: 0 8px 6px -2px #ccc;
+        }
+        
+    }
+    .container-help-community:hover {
+        box-shadow: 3px 2px 3px 0px #ccc;
+        border: 1px solid #EEE;
+        border-bottom: none;
+        position: absolute;
+        .show-hide-help-community-menu {
+            display: block;
+            box-shadow: 0 8px 6px -2px #ccc;
+            position: relative;
+        }
+    }
+}

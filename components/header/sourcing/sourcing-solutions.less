@@ -1,0 +1,55 @@
+   .container-sourcing-solutions {
+        width: 150px;
+        height: 25px;
+        display: inline-block;
+        cursor: default;
+        border: 1px solid #FFF;
+        .text-menu {
+            font-size: 13px;
+            padding-left: 10px;
+        }
+        .show-hide-menu {
+            height: 215px;
+            width: 550px;
+            position: relative;
+            display: none;
+            z-index: 999;
+           
+            background: #FFF;
+            box-shadow: 0 8px 6px -2px #ccc;
+            .column {
+                width: 33%;
+                height: 100%;
+                float: left;              
+                display: inline-block;
+                .column-heading {
+                    padding: 15px;
+                    font-weight: bold;
+                    padding-bottom: 0;
+                }
+                .link {
+                    font-size: 13px;
+                    padding-left: 10px;
+                    &:hover {
+                        color: orange;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        
+    }
+    .container-sourcing-solutions:hover {
+        box-shadow: 3px 2px 3px 0px #ccc;
+        border: 1px solid #EEE;
+        border-bottom: none;
+        .text-menu {
+            color: orange;
+        }
+        //position: absolute;
+        .show-hide-menu {
+            display: block;
+            box-shadow: 0 8px 6px -2px #ccc;
+            position: relative;
+        }
+    }
